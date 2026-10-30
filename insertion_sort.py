@@ -16,5 +16,10 @@ values = [45, 12, 78, 34, 23]
 print("Before sorting:", values)
 insertion_sort_descending(values)
 print("After sorting: ", values)
+
+duplicates = [5,2,5,1]
+print("Before sorting duplicates:", duplicates)
+insertion_sort_descending(duplicates)
+print("After sorting duplicates:", duplicates)
                    
                    
